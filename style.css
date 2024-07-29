@@ -3,7 +3,9 @@ h1{
 }
 body{
     font-family: Arial, sans-serif;
-    background-color: rgb(204, 135, 70);
+    line-height: 1.6;
+    color:#333;
+    background-color: #f5f5f5;
 }
 .recetas{
     display: flex;
@@ -15,7 +17,7 @@ body{
     width: 300px;
     margin:20px;
     padding: 20px;
-    background-color: aliceblue;
+    background-color:  rgb(204, 135, 70);
     border-radius: 10px;
     box-shadow: 0 0 5px rgba(0,0,0,0.1);
     text-align: center;
@@ -36,4 +38,50 @@ body{
 }
 .comida:hover .desc{
     display: block;
+}
+header{
+    background:rgb(204, 135, 70);
+    color: #fff;
+    padding: 1rem 0;
+}
+header .contenedorprin{
+width: 80%;
+margin: auto;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+header h1{
+    font-size: 2rem;
+}
+header nav ul{
+    list-style: none;
+    display: flex;
+}
+header nav ul li{
+    margin-left: 1rem;
+}
+header nav ul li a{
+    color:#fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+header nav ul li a:hover{
+    text-decoration: underline;
+}
+footer{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+footer .contenedorult{
+width: 80%;
+margin:0 auto;
+}
+footer p{
+    margin: 0.5rem 0;
 }
