@@ -85,3 +85,37 @@ margin:0 auto;
 footer p{
     margin: 0.5rem 0;
 }
+main p{
+text-align: center;
+}
+main ul li{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+.a{ 
+    text-decoration: none;
+    font-weight: bold;
+    list-style: none;
+    display: flex;
+    width: 300px;
+    margin:20px;
+    padding: 20px;
+    background-color:  rgb(204, 135, 70);
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    text-align: center;
+}.b{
+    text-decoration: none;
+    font-weight: bold;
+    list-style: none;
+    display: flex;
+    width: 300px;
+    margin:20px;
+    padding: 20px;
+    background-color:  rgb(204, 135, 70);
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    text-align: center;
+}
