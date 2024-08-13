@@ -44,6 +44,7 @@ margin: 10px 0 0;
 color: #666;
 }
 .recetas{
+    margin-top: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -165,4 +166,35 @@ h2{
     text-align: center;
     width: 200px;
     transition: transform 0.3s;
+}
+.aaa{
+    padding: 30px;
+    float:left ;
+    border-radius: 180px;
+}
+.bbb{
+    padding: 30px;
+    float:left ;
+    border-radius: 100px;
+}
+.ccc{
+    padding: 30px;
+    float:left ;
+    border-radius: 180px;
+}
+.resushi{
+    margin-top: 200px;
+    text-align:left;
+}
+.rerame{
+    margin-top: 200px;
+    text-align:left;
+}
+.comida a{
+    text-decoration: none;
+    list-style: none;
+    color: #333;
+}
+.ddd{
+    margin-top: 250px;
 }
